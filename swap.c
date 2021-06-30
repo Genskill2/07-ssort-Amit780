@@ -14,3 +14,9 @@ t= arr[n];
 arr[n] = arr[j];
 arr[j]= t;
 }
+
+void ssort(int arr[], int l){
+for(int i=0; i<l; i++){
+swap_max(arr[], l, i);
+}
+}
