@@ -1,12 +1,12 @@
 /* swapping function*/
 void swap_max(int arr[], int l, int n){
 int max = arr[n];
-int t;
+int t,j
 for(int i=n; i<l; i++){
 if( arr[i] > max)
 max = arr[i];
 }
-for(int j=0; j<l; j++){
+for(j=0; j<l; j++){
 if(max == arr[j]);
 break;
 }
